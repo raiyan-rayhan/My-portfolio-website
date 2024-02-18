@@ -45,7 +45,7 @@
         <div class="social-media">
           <a href="https://www.facebook.com/riyan.rayhan.54" target="_blank"><i class='bx bxl-facebook'></i></a>
           <a href="https://www.instagram.com/raiyan_rayhan" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
-          <a href="mailto: rayhanab882@gmail.com" target="_blank"><i class='bx bx-mail-send'></i></a>
+          <a href="https://api.whatsapp.com/send?phone=+8801641001745&text=Hey there! " target="_blank"><i class='bx bxl-whatsapp'></i></a>
           <a href="https://twitter.com/rayhan_Raian" target="_blank"><i class='bx bxl-twitter'></i></a>
         </div>
 
@@ -118,20 +118,24 @@
       <h2 class="heading">Contact <span>Me</span></h2>
 
 
-      <form action="#">
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="c696c1fc-2ad0-43de-9864-3d6e3dcf571e">
 
         <div class="input-box">
-          <input type="text" placeholder="Your Name">
-          <input type="email" placeholder="Email Address">
+          
+          <input type="text" placeholder="Your Name" name="name" >
+          <input type="email" placeholder="Email Address" name="email">
         </div>
 
         <div class="input-box">
-          <input type="number" placeholder="Mobile Number">
-          <input type="text" placeholder="Email Subject">
+          <input type="number" placeholder="Mobile Number" name="mobile number">
+          <input type="text" placeholder="Email Subject" name="subject">
         </div>
 
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <a href="mailto: rayhanab882@gmail.com" class="btn" target="_blank">Send Message</a>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        
+        <input type="submit" value="Send Message" class="btn" >
 
       </form>
 
