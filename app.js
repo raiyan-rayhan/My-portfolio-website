@@ -68,7 +68,7 @@ window.onscroll = ()=>{
         /*================================typed js=================================*/
 
     const typed = new Typed('.multiple-text', {
-        strings:['Frontend Developer','Web Designer', 'Wordpress Developer'],
+        strings:['Frontend Development','Web Design', 'Wordpress Development'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
